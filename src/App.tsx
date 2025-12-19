@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import PdfMergeTool from './pages/PdfMergeTool';
 import SplitFilesTool from './pages/SplitFilesTool';
 import IdDecoderTool from './pages/IdDecoderTool';
+import JsonFormatterTool from './pages/JsonFormatterTool';
 import { MenuItem } from './types';
 import './App.css';
 
@@ -27,7 +28,13 @@ const menuItems: MenuItem[] = [
     path: '/id-decoder'
   },
   {
-    id: 'placeholder-3',
+    id: 'json-formatter',
+    label: 'JSON Formatter',
+    icon: '📋',
+    path: '/json-formatter'
+  },
+  {
+    id: 'placeholder-4',
     label: 'QR Code Generator',
     icon: '📱',
     path: '/qr-generator'
@@ -42,6 +49,7 @@ function App() {
           <Route path="/pdf-merge" element={<PdfMergeTool />} />
           <Route path="/split-files" element={<SplitFilesTool />} />
           <Route path="/id-decoder" element={<IdDecoderTool />} />
+          <Route path="/json-formatter" element={<JsonFormatterTool />} />
           <Route path="/" element={<PdfMergeTool />} />
         </Routes>
       </Layout>
