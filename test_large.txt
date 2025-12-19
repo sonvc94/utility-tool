@@ -1,0 +1,25 @@
+Line 1: This is a test file with multiple lines
+Line 2: Each line contains some sample content
+Line 3: This file is used to test the split files functionality
+Line 4: The split files tool can process various text formats
+Line 5: Including .txt, .csv, .log, and .json files
+Line 6: Users can split files into multiple parts
+Line 7: Or extract the last n lines from a file
+Line 8: The tool provides preview functionality for last lines extraction
+Line 9: Users can download the processed files
+Line 10: The interface is user-friendly and intuitive
+Line 11: Number inputs only accept digits for validation
+Line 12: Split files are named with original_name_01 format
+Line 13: This allows for easy identification and organization
+Line 14: The tool handles large files efficiently
+Line 15: Error handling prevents invalid operations
+Line 16: Users can clear previews and start over
+Line 17: The application runs in a Docker container
+Line 18: Port 8080 is used for the web interface
+Line 19: React and TypeScript provide robust development
+Line 20: The utility website can be expanded with more tools
+Line 21: Each tool follows a consistent design pattern
+Line 22: File processing happens client-side for privacy
+Line 23: No server storage is required for file operations
+Line 24: The split files tool is now ready for testing
+Line 25: This completes the large test file content
